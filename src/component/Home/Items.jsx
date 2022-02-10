@@ -56,7 +56,7 @@ const Items = () => {
                         <div className='text-xl leading-6 text-center font-bold'>
                             <h2 >Big Save</h2>
                             <h1 className='mb-4'>Save 50%</h1>
-                            <a className='rounded-full bg-gray-50 hover:bg-blue-600 hover:text-white text-lg px-3 py-2 '>Shop Now</a>
+                            <button className='rounded-full bg-gray-50 hover:bg-blue-600 hover:text-white text-lg px-3 py-2 '>Shop Now</button>
                         </div>
                         <img className='w-24' src={pat2} alt="parfait" />
                     </div>
@@ -67,7 +67,7 @@ const Items = () => {
                         <div className='text-xl leading-6 text-center font-bold'>
                             <h2 >Big Save</h2>
                             <h1 className='mb-4'>Save 50%</h1>
-                            <a className='rounded-full bg-gray-50 hover:bg-blue-600 hover:text-white text-lg px-3 py-2 '>Shop Now</a>
+                            <button className='rounded-full bg-gray-50 hover:bg-blue-600 hover:text-white text-lg px-3 py-2 '>Shop Now</button>
                         </div>
                         <img className='w-24' src={pat2} alt="parfait" />
                     </div>

@@ -8,17 +8,18 @@ const Footer = () => {
         <div className="bg-gray-100 sm:flex sm:flex-wrap justify-center">
              <div className='m-5 w-2/5 md:w-60'>
                 <h3  className="font-bold">EXTRAS</h3>
-                <a className="block">Brands</a>
-                <a className="block">Gift Certificates</a>
+                <button className="block">Brands</button>
+                <button className="block">Gift Certificates</button>
                 {/* <a href="#">Affiliate</a> */}
-                <a className="block">Specials</a>
+                <button className="block">Specials</button>
+                
             </div>
             <div className='m-5 w-2/5 md:w-60'>
                 <h3 className="font-bold">INFORMATION</h3>
-                <a className="block">About Us</a>
-                <a className="block">Privacy Policy</a>
-                <a className="block">Terms & Conditions</a>
-                <a className="block">Contact Us</a>
+                <button className="block">About Us</button>
+                <button className="block">Privacy Policy</button>
+                <button className="block">Terms & Conditions</button>
+                <button className="block">Contact Us</button>
             </div>
             <div className='m-5 sm:w-2/5 md:w-60'>
                 <h3 className="font-bold">CONTACT US</h3>
