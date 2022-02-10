@@ -1,9 +1,7 @@
 import React from 'react';
 import pat from "./image/pat.png"
 import pat2 from "./image/pat2.png"
-import pat3 from "./image/pat3.png"
-import main from "./image/main.png"
-import logo from "./image/logo.png"
+
 
 const Items = () => {
     return (
@@ -58,9 +56,9 @@ const Items = () => {
                         <div className='text-xl leading-6 text-center font-bold'>
                             <h2 >Big Save</h2>
                             <h1 className='mb-4'>Save 50%</h1>
-                            <a href="#" className='rounded-full bg-gray-50 hover:bg-blue-600 hover:text-white text-lg px-3 py-2 '>Shop Now</a>
+                            <a className='rounded-full bg-gray-50 hover:bg-blue-600 hover:text-white text-lg px-3 py-2 '>Shop Now</a>
                         </div>
-                        <img className='w-24' src={pat2} alt="" />
+                        <img className='w-24' src={pat2} alt="parfait" />
                     </div>
                 </div>
 
@@ -69,9 +67,9 @@ const Items = () => {
                         <div className='text-xl leading-6 text-center font-bold'>
                             <h2 >Big Save</h2>
                             <h1 className='mb-4'>Save 50%</h1>
-                            <a href="#" className='rounded-full bg-gray-50 hover:bg-blue-600 hover:text-white text-lg px-3 py-2 '>Shop Now</a>
+                            <a className='rounded-full bg-gray-50 hover:bg-blue-600 hover:text-white text-lg px-3 py-2 '>Shop Now</a>
                         </div>
-                        <img className='w-24' src={pat2} alt="" />
+                        <img className='w-24' src={pat2} alt="parfait" />
                     </div>
                 </div>
             </section>
