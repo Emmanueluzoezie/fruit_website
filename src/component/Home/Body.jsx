@@ -15,7 +15,7 @@ const Body = () => {
           </div>
           <img className=" object-cover  w-44 h-44 sm:w-56 sm:h-56 md:w-60 md:h-60  lg:w-72 lg:h-72 absolute bottom-0 right-0" src={product2} alt="" />
           <img className=" object-cover  w-52 h-52 sm:w-56 sm:h-56 md:w-60 md:h-60  lg:w-72 lg:h-72 absolute bottom-0 left-0" src={banner} alt="" />
-          <img className=" object-cover animate-pulse w-36 h-36 sm:w-56 sm:h-56 md:w-60 md:h-60 lg:w-72 lg:h-72 absolute bottom-32 sm:bottom-0 right-40 sm:left-64 md:left-68 lg:left-96 " src={main} alt="" />
+          <img className=" object-cover animate-pulse w-36 h-36 sm:w-56 sm:h-56 md:w-60 md:h-60 lg:w-72 lg:h-72 absolute bottom-52 sm:bottom-0 right-28 sm:left-64 md:left-68 lg:left-96 " src={main} alt="" />
           <img className=" hidden lg:flex object-cover  w-72 h-72  absolute bottom-0 right-80 " src={main} alt="" />
         </div>
     </div>
