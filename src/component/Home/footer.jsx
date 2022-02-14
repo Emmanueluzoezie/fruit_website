@@ -8,11 +8,11 @@ const Footer = () => {
   return (
        <div className='bg-gray-800 py-5 text-center'>
             <div className="flex-shrink-0  mb-3">
-                <a href='/' className='text-2xl  md:text-2xl lg:text-3xl md:ml-2 text-yellow-900'>
+                <a href='/' className='font-bold text-2xl  md:text-2xl lg:text-3xl md:ml-2 text-yellow-900'>
                 Dahlia<span className='text-xl ml-2  md:text-xl lg:text-2xl md:ml-2 text-yellow-500'>Fruit</span>
                 </a>
             </div>
-        <div className="bg-gray-600 w-5/6 sm:flex sm:flex-wrap justify-center m-auto py-4">
+        <div className="rounded-t-2xl bg-gray-600 w-5/6 sm:flex sm:flex-wrap justify-center m-auto py-4">
              <div className='m-5 md:w-60'>
                 <h3  className="font-bold">LET US HELP YOU</h3>
                 <button className="block hover:text-white hover:font-bold">Help Center</button>
@@ -21,7 +21,7 @@ const Footer = () => {
                 
             </div>
             <div className='m-5 md:w-60 text-center'>
-                <h3 className="font-bold">ABOUT JUMIA</h3>
+                <h3 className="font-bold">ABOUT DahliaFruit</h3>
                 <button className="block hover:text-white hover:font-bold">About Us</button>
                 <button className="block hover:text-white hover:font-bold">Privacy Policy</button>
                 <button className="block hover:text-white hover:font-bold">Terms & Conditions</button>
@@ -35,8 +35,8 @@ const Footer = () => {
                 <button className="block hover:text-white hover:font-bold"><LocationCityIcon/> Abuja, Nigeria</button>
             </div>
         </div>
-        <div className="bg-gray-600 w-5/6 m-auto pb-4">
-                <button><InstagramIcon /></button>
+        <div className="bg-gray-600 w-5/6 m-auto pb-4 rounded-b-2xl">
+                <a href="https://www.instagram.com/dahlia_fruitville/"><InstagramIcon /></a>
             </div>
        </div>
    )

@@ -14,7 +14,7 @@ const Menu = () => {
               <div className="flex items-center justify-between h-16">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
-                    <button href='/' className='text-2xl  md:text-2xl lg:text-3xl md:ml-2 text-yellow-900'>
+                    <button href='/' className='text-2xl font-medium  md:text-2xl lg:text-3xl md:ml-2 text-yellow-900'>
                       Dahlia<span className='text-xl ml-2  md:text-xl lg:text-2xl md:ml-2 text-yellow-500'>Fruit</span>
                     </button>
                   </div>
