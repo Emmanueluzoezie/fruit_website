@@ -2,6 +2,7 @@ import {useState} from "react"
 import { Transition } from "@headlessui/react";
 import MenuIcon from '@mui/icons-material/Menu'
 import CloseIcon from '@mui/icons-material/Close'
+import { Link } from "react-router-dom"
 
 const Menu = () => {
   
@@ -13,39 +14,43 @@ const Menu = () => {
               <div className="flex items-center justify-between h-16">
                 <div className="flex items-center">
                   <div className="flex-shrink-0">
-                    <a href='/' className='text-2xl  md:text-2xl lg:text-3xl md:ml-2 text-yellow-900'>
+                    <button href='/' className='text-2xl  md:text-2xl lg:text-3xl md:ml-2 text-yellow-900'>
                       Dahlia<span className='text-xl ml-2  md:text-xl lg:text-2xl md:ml-2 text-yellow-500'>Fruit</span>
-                    </a>
+                    </button>
                   </div>
                   <div className="hidden md:block">
                     <div className="md:ml-16 lg:ml-40 flex items-baseline space-x-4">
-                      <a
-                        href="/"
+                      <Link to="/">
+                        <button
                         className=" hover:bg-gray-400 text-white px-3 py-2 rounded-md text-sm font-medium"
                       >
                         Home
-                      </a>
+                      </button>
+                      </Link>
     
-                      <a
-                        href="/product"
+                      <Link to="/product">
+                        <button
                         className="text-gray-300 hover:bg-gray-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                       >
                         Product
-                      </a>
+                      </button>
+                      </Link>
     
-                      <a
-                        href="/about"
+                      <Link to="/about">
+                        <button
                         className="text-gray-300 hover:bg-gray-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                       >
                         About
-                      </a>
+                      </button>
+                      </Link>
     
-                      <a
-                        href="#"
+                      <Link to="/contact">
+                        <button
                         className="text-gray-300 hover:bg-gray-400 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                       >
                         Contact
-                      </a>
+                      </button>
+                      </Link>
                     </div>
                   </div>
                   <button  className="hidden md:flex bg-blue-600 font-bold hover:bg-yellow-400 py-1 px-3 md:px-2  text-black hover:text-white md:text-lg text-xl rounded-full md:ml-16 lg:ml-40 ">Order now</button>
